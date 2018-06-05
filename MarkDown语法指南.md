@@ -164,6 +164,19 @@ class SomeClass:
 >>> message = '''interpreter
 ... prompt'''
 ```
+```javascript
+function fib(n) {
+  var a = 1, b = 1;
+  var tmp;
+  while (--n >= 0) {
+    tmp = a;
+    a += b;
+    b = tmp;
+  }
+  return a;
+}
+```
+
 
 JavaScript 示例：
 
