@@ -333,10 +333,11 @@ D-->>A: Dashed open arrow
 >目录
 >>common
 >>dist
->>images
->>untils
->>wxparse
 >>pages
 >>>attentionList
 >>>audiobroadcast
 >>>bookIntroduce
+>>images
+>>untils
+>>wxparse
+
