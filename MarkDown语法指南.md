@@ -321,6 +321,7 @@ D-->>A: Dashed open arrow
     - [x] 改进 LaTex 功能
         - [x] 修复 LaTex 公式渲染问题
         - [x] 新增 LaTex 公式编号功能 [语法参考](http://docs.mathjax.org/en/latest/tex.html#tex-eq-numbers)
+        - [x] 
 - [ ] **七月旅行准备**
     - [ ] 准备邮轮上需要携带的物品
     - [ ] 浏览日本免税店的物品
