@@ -164,7 +164,7 @@ class SomeClass:
 >>> message = '''interpreter
 ... prompt'''
 ```
-```javascript
+```
 function fib(n) {
   var a = 1, b = 1;
   var tmp;
