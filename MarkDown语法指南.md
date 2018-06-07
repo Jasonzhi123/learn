@@ -1,3 +1,18 @@
+# 名片推送
+- common   wxss样式
+- images   图片
+- pages   页面
+  - cardDetails  名片详情页
+  - common   公共模板
+  - generatePictures  生成图片
+  - linkErr  网络中断
+  - makeCard  制作名片
+  - userAuthorizetion  用户授权
+- utils  公共js函数
+- app.js
+- app.json
+- app.wxss
+- config.js  配置文件
 # Cmd Markdown 简明语法手册
 
 标签： Cmd-Markdown
