@@ -1,33 +1,3 @@
-#名片推送
-
-- common   wxss样式
-- images   图片夹
-- pages   页面
-  - cardClips  名片夹
-  - cardDetails  名片详情页
-  - common   公共模板
-   -- 分享选项框 
-
-  - generatePictures  生成图片
-  - index  首页
-  - linkErr  网络中断
-  - makeCard  制作名片
-  - map  地图
-  - myself 我的
-  - shoppingMail 商城
-  - userAuthorizetion  用户授权
-  - cardClips  名片夹
-  - shoppingMall  商城
-  - myself  我的
-
-- utils  公共js函数
-- style  weui样式
-- wxParse  解析html
-- app.js  
-- app.json
-- app.wxss
-- config.js  配置文件
- 
 
 # Cmd Markdown 简明语法手册
 
