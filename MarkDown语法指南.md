@@ -6,7 +6,7 @@
   - cardClips  名片夹
   - cardDetails  名片详情页
   - common   公共模板
-   - 分享选项框 
+   -- 分享选项框 
 
   - generatePictures  生成图片
   - index  首页
