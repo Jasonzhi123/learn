@@ -412,6 +412,7 @@ function stringToInt(str) {
 }
 /**
  * 数字数
+ *str[字符串]
  * */
 function chkstrlen(str) {
   let strlen = 0;
