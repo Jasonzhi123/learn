@@ -26,6 +26,7 @@ function rand(lowValue, highValue) {
 
 /**
  * 转换时间格式，分秒
+  *time【时间戳】
  */
 function secondsToTime(time) {
   if (typeof time !== 'number' || time < 0) {
