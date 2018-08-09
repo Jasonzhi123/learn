@@ -258,7 +258,9 @@ function ajax(obj, call_num) {
   })
 }
 
-//图片宽高比例
+/*
+*图片宽高比例
+*/
 function imageUtil(e) {
   var imageSize = {};
   var originalWidth = e.detail.width; //图片原始宽 
