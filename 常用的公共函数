@@ -415,6 +415,7 @@ function throttle(fn, gapTime) {
 function stringToInt(str) {
   return parseInt(str.toString());
 }
+
 /**
  * 数字数
  *str[字符串]
@@ -450,6 +451,7 @@ function sliceArray(array, size) {
   }
   return result;
 }
+
 module.exports = {
   ajax: ajax,
   config: config,
