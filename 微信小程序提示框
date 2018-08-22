@@ -1,6 +1,6 @@
 // 提示框
 
-var showBusy = function(o) {
+ showBusy = function(o) {
     return wx.showToast({
       title: o,
       icon: "loading",
