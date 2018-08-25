@@ -1,5 +1,7 @@
 // 提示框
-"use strict";
+
+
+
 var showBusy = function(o) {
     return wx.showToast({
       title: o,
