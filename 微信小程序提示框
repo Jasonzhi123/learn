@@ -1,29 +1,35 @@
 // 提示框
-
- showBusy = function(o) {
+"use strict";
+var showBusy = function(o) {
     return wx.showToast({
       title: o,
       icon: "loading",
       duration: 2e3
     })
   },
-  showSuccess = function(o) {
+
+  showSuccess = function(o,s) {
     return wx.showToast({
       title: o,
       icon: "success",
-      duration: 2e3
+      duration: 2e3,
+      success: function () {
+        "function" == typeof s && s()
+      }
     })
   },
-  showModel = function(o, n,s) {
+
+  showModel = function(o, n, s) {
     wx.hideToast(), wx.showModal({
       title: o,
-      content: JSON.stringify(n),
+      content: n,
       showCancel: !1,
-      success: function (o) {
+      success: function(o) {
         o.confirm && "function" == typeof s && s()
       }
     })
   },
+
   showLoading = function(o) {
     return wx.showToast({
       title: o,
@@ -32,9 +38,11 @@
       duration: 1e4
     })
   },
+
   hideLoading = function() {
     wx.hideToast()
   },
+
   showWarning = function(o, n) {
     wx.hideToast(), wx.showModal({
       title: o,
@@ -42,6 +50,7 @@
       showCancel: !1
     })
   },
+
   showConfirm = function(o, n, s) {
     wx.hideToast(), wx.showModal({
       title: o,
@@ -51,6 +60,7 @@
       }
     })
   };
+
 module.exports = {
   showBusy: showBusy, //加载框
   showSuccess: showSuccess, //成功
