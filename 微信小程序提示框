@@ -1,5 +1,5 @@
 // 提示框
-
+"use strict";
 var showBusy = function(o) {
     return wx.showToast({
       title: o,
@@ -31,7 +31,7 @@ var showBusy = function(o) {
   },
 
   showLoading = function(o) {
-    return wx.showToast({
+    return wx.showLoading({
       title: o,
       icon: "loading",
       mask: !0,
@@ -40,7 +40,7 @@ var showBusy = function(o) {
   },
 
   hideLoading = function() {
-    wx.hideToast()
+    wx.hideLoading()
   },
 
   showWarning = function(o, n) {
