@@ -1,8 +1,6 @@
 /**
  * js将时间戳转换成日期格式
  *timestamp【时间戳】
- 
- 
  */
 
 function timestampToTime(timestamp) {
